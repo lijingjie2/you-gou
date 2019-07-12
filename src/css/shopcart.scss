@@ -1,0 +1,72 @@
+@import './modules/base.scss';
+@import './modules/header.scss';
+@import './modules/footer.scss';
+.main{
+width: 988px;
+margin: 0 auto;
+
+nav{
+    display: flex;
+    width: 988px;
+    margin: 0 auto;
+    .logoShopping{
+        width: 355px;
+        a{
+            display: block;
+
+
+        }
+    }
+    .top1{
+        display: flex;
+        li{
+            text-align: center;
+            width: 200px;
+            a{
+
+            }
+        }
+    }
+}
+table{
+    margin: 0 auto;
+    width: 988px;
+    border: 1px #f1f1f1 solid;
+    thead{
+        width: 988px;
+        border-bottom: 1px #f1f1f1 solid;
+        tr{
+            // border-bottom: 1px #f1f1f1 solid;
+            width: 988px;
+            td{
+
+            }
+        }
+    }
+    
+    tbody{
+        tr{
+            td:nth-child(1){
+                display: flex;
+
+                .img-title{
+                    margin-left: 10px;
+                    img{
+                        width: 60px;
+                        height: 60px;
+                    }
+                }
+            }
+            td:nth-child(2){
+                width: 250px;
+                font-size: 12px;
+            }
+        }
+    }
+}
+.text{
+    // float: right;
+    text-align: right;
+}
+
+}

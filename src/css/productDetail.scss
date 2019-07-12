@@ -1,0 +1,152 @@
+@import './modules/base.scss';
+@import './modules/header.scss';
+@import './modules/nav.scss';
+@import './modules/footer.scss';
+.main{
+    width: 1190px;
+    margin: 0 auto;
+    .detail{
+        .container{
+            width: 1492px;
+            height: 983px;
+            display: flex;
+            
+            .shopImg{
+                width: 630px;
+                height: 615px;
+                display: flex;
+                justify-content: space-between;
+                .big-container{
+                    margin-right: 100px;
+                    margin-left: 30px;
+                    .zoom-img{
+                        width: 480px;
+                        height: 480px;
+                    }
+                }
+                .view_thumbs{
+                    width: 83px;
+                    height: 615px;
+
+                    ul{
+                        width: 83px;
+                        height: 615px;
+                        li{
+                            width: 83px;
+                            height: 83px;
+                            margin-bottom: 7px;
+                            a{
+                                display: block;
+                                width: 83px;
+                                height: 83px;
+                                img{
+                                    width: 83px;
+                                    height: 83px;
+                                }
+                            }
+                        }
+                    }
+
+                    // .view_ul{
+                    //     width: 83px;
+                    //     height: 615px;
+                    //     display: flex;
+                    //     flex-direction: column;
+                    //     li{
+                    //         width: 83px;
+                    //         height: 83px;
+                    //         a{
+                    //             display: block;
+                    //             width: 83px;
+                    //                 height: 83px;
+                    //             .small{
+                    //                 width: 83px;
+                    //                 height: 83px; 
+                    //             }
+                    //         }
+                    //     }
+                    // }
+                }
+            }
+            .shopDes{
+                .productLogo{
+                    display: block;
+                    width: 180px;
+                    height: 82px;
+                    background: url();
+                }
+                p{
+
+                }
+                .shopDes:nth-of-type(3){
+
+                }
+                .shopDes:nth-of-type(4){
+
+                }
+                br{
+
+                }
+                form{
+
+                    .color{
+                        display: flex;
+                        a{
+                            display: block;
+                            width: 54px;
+                            height: 54px;
+                            border: 1px solid #dadada;
+                        }
+                    }
+                    
+                    .size{
+                        display: flex;
+                        justify-content: space-between;
+                        width: 371px;
+                        height: 67px;
+                        a{
+                            display: block;
+                            width: 63px;
+                            height: 27px;
+                            border: 1px solid #cfcfcf;
+                        }
+                    }
+                    
+                    .num{
+                        display: flex;
+                        justify-content: space-between;
+                        width: 105px;
+                        height: 40px;
+                        input{
+                            width: 78px;
+                            height: 40px;
+                        }
+                        div{
+                            width: 22px;
+                            height: 37px;
+                            input{
+                                width: 22px;
+                                height: 16px;
+                                background: #686868;
+                            }
+                        }
+
+                    }
+                    .buy{
+                        display: flex;
+                        justify-content: space-between;
+                        width: 520px;
+                        height: 62px;
+                        input{
+                            width: 280px;
+                            height: 62px;
+                            background: #333333;
+                            color: #ffffff;
+                        }
+
+                    }
+                }
+            }
+        }
+    }
+}

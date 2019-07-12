@@ -1,0 +1,104 @@
+@import './modules/base.scss';
+@import './modules/header.scss';
+.main{
+    .top{
+        width: 990px;
+        padding: 13px 0;
+        margin: 0 auto;
+    }
+.rel{
+    position: relative;
+    .mid{
+        display: block;
+        width: 100%;
+        height: 553px;
+        background: url(/images/login/ba839750211e4c6485fe16dea496b709.jpg);
+    }
+        form{
+            position: absolute;
+            background: #ffffff;
+    width: 378px;
+    // height: 563px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    top: 50px;
+    left: 50%;
+    margin-left: 115px;
+    div{
+        margin-top: 24px;
+        width: 348px;
+        height: 40px;
+        display: flex;
+        justify-content: space-between;
+        margin-bottom: 28px;
+        input{
+            width: 174px;
+            height: 40px;
+            text-align: center;
+            line-height: 50px;
+            font-size: 13px;
+            
+        }
+
+    }
+    input:nth-of-type(1),input:nth-of-type(2){
+        width: 170px;
+        height: 38px;
+        margin-bottom: 28px;
+        // border: none;
+        outline: none;
+        line-height: 38px;
+    }
+    a{
+        margin-left: 159px;
+        font-size: 13px;
+        line-height: 32px;
+    }
+    input:nth-of-type(3){
+        width: 313px;
+        height: 40px;
+        background: #000000;
+        line-height: 50px;
+        text-align: center;
+        margin-bottom: 19px;
+        outline: none;
+        border: none;
+        color: #ffffff;
+        line-height: 40px;
+
+    }
+    p{
+        font-size: 13px;
+        line-height: 13px;
+        margin-bottom: 25px;
+    }
+    .cooperation{
+        display: flex;
+        li{
+            // padding: 0 16px;
+            width: 42px;
+            height: 42px;
+            margin: 0 16px;
+            display: flex
+            
+            
+            a{
+                display: block;
+                width: 42px;
+                height: 42px;
+
+                border-radius: 50%; 
+                background: pink;
+            }
+        }
+    }
+}
+}
+}
+footer{
+    display: flex;
+
+    justify-content: center;
+    padding-top: 20px;
+}

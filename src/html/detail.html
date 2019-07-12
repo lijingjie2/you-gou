@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+        <title></title>
+        
+        <link rel="stylesheet" href="/css/productDetail.css">
+	</head>
+	<body>
+        <header></header>
+        <nav></nav>
+        <div class="main">
+            <div class="detail">
+                <div class="container">
+                    <div class="shopImg" id="shopImg">
+                            
+                    </div>
+                    <div class="shopDes">
+                        <a href="" class="productLogo"></a>
+                        <p></p>
+                        ￥<span></span>￥<span></span>
+                        <br>
+                        <form action="">
+                            <span class="">颜色</span>
+                            <span class="color">
+                                <a href=""></a>
+                                <a href=""></a>
+                            </span>
+                            <span class="">尺码</span>
+                            <span class="size">
+                                    <a href="">34</a>
+                                    <a href="">35</a>
+                                    <a href="">36</a>
+                                <a href="">37</a>
+                                <a href="">38</a>
+                                <a href="">39</a>
+                            </span>
+                            <span class="sizeTab"><a href="">查看尺码表>></a></span>
+                            <div class="">
+                                <span class="">数量</span>
+                                <div class="num">
+                                        <input type="text">
+                                        <div>
+                                            <input type="button" value="">
+                                            <input type="button" value="">
+                                        </div>
+
+                                </div>
+                                
+                                <div class="buy">
+                                    <input type="button" value="加入购物袋" class="addCart">
+                                    <input type="button" value="立即购买">
+                                </div>
+                                <div>
+                                    <ul>
+                                        <li><a href=""></a></li>
+                                        <li><a href=""></a></li>
+                                    </ul>
+                                    <img src="" alt="">
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+        <footer>
+              
+        </footer>
+        <script type="text/html" id="template-img">
+            <div class="view_thumbs" id="gal1">
+                    <ul class="view-ul ">
+                        {{each data.images img}}
+                        <li class="current small-container">
+                            <a href="" data-image="{{img}}" data-zoom-image="{{img}}">
+                                <img class="img-responsive small" src="{{img}}" alt="服务器无响应" />
+                            </a>
+                        </li>
+                        {{/each}}
+                    </ul>
+                  </div>
+            <div class="view_bd big-container">
+                                    <img class="zoom-img img-responsive big" src="{{data.images[0]}}" data-zoom-image="{{data.images[0]}}" alt="服务器无响应" />
+                                </div>
+                                
+        </script>
+        <script src="/libs/requirejs/require.min.js" data-main="/js/detail"></script>
+    </body>
+    
+</html>

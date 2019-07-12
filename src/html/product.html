@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+        <title></title>
+        <link rel="stylesheet" href="/css/product.css">
+	</head>
+	<body>
+        <header></header>
+        <nav></nav>
+        <div class="main">
+            <ul class="tree">
+                <li><a href=""></a></li>
+            
+                <li><a href=""></a></li>
+            
+                <li><a href=""></a></li>
+            </ul>
+
+            <div class="nav2">
+                    <p>
+                            共><span></span>个结果
+                        </p>
+                        <ul>
+                            <li><a href="">新品</a></li>
+                            <li><a href="">热销</a></li>
+                            <li><a href="">推荐</a></li>
+                            <li><a href="">价格</a></li>
+                            <li><a href="">折扣</a></li>
+                        </ul>
+                        <p>
+                            
+                            <a href="">上一页</a>
+                            <span></span>
+                            -
+                            <span></span>
+                            页/
+                            <a href="">下一页</a>
+                            
+                        </p>
+            </div>
+            <div class="product">
+                <ul class="productTree">
+                    <li><a href="">品牌</a></li>
+                    <li><a href="">品类</a></li>
+                    <li><a href="">性别</a></li>
+                    <li><a href="">季节</a></li>
+                    <li><a href="">年龄段</a></li>
+                    <li><a href="">尺码</a></li>
+                    <li><a href="">颜色</a></li>
+                    <li><a href="">价格</a></li>
+                    <li><a href="">鞋面材质</a></li>
+                </ul>
+                <div class="productList" id="productList">
+                    
+                </div>
+                <script type="text/html" id="list-template">
+                    {{each list item}}
+                    <dl>
+                            <dt>
+                                <a href="/html/detail.html?id={{item.id}}">
+                                        <img src="{{item.image}}" alt="">
+                                </a>
+    
+                            </dt>
+                            <dd>
+                                <a href="">{{item.title}}</a>
+    
+                            </dd>
+                            <dd>
+                                ￥<span>{{item.price}}</span>￥<span>{{item.price}}</span>
+    
+                                </dd>
+                                <div></div>
+                        </dl>
+                    {{/each}}
+                </script>
+            </div>
+            <ul>
+                <li><a href="">下一页></a></li>
+                <li><a href=""></a></li>
+                <li><a href="">下一页></a></li>
+            </ul>
+
+        </div>
+        <footer></footer>
+    </body>
+    <script src="/libs/requirejs/require.min.js" data-main="/js/list"></script>
+</html>

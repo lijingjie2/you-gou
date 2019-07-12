@@ -1,0 +1,69 @@
+@import './modules/base.scss';
+@import './modules/header.scss';
+@import './modules/nav.scss';
+@import './modules/footer.scss';
+.main{
+    padding: 0 326px;
+    .tree{
+        margin-top: 47px;
+        margin-bottom: 35px;
+        font-size: 13px;
+        color: #2c2b2b;
+    }
+    .box{
+        display: flex;
+        justify-content: space-between;
+        .myYougou{
+            width: 188px;
+            height: 611px;
+            h4{
+                display: block;
+                background: #000000;
+                width: 188px;
+                height: 42px;
+                line-height: 42px;
+                text-align: center;
+                color: #ffffff;
+            }
+            h5{
+                font-size: 20px;
+                line-height: 34px;
+                margin-top: 10px;
+                padding-left: 37px;
+            }
+            ul{
+                padding-left: 37px;
+                margin-bottom: 37px;
+                li{
+                    font-size: 13px;
+                    line-height: 31px;
+                    a{
+                        color: #787777;
+                    }
+                }
+            }
+
+        }
+        .collectTab{
+            width: 1038px;
+            ul{
+                width: 1038px;
+                height: 44px;
+                display: flex;
+                border-bottom: 1px solid #f0f0f0; 
+                li{
+                    margin-right: 11px;
+                    width: 137px;
+                    height: 44px;
+                    line-height: 44px;
+                    text-align: center;
+                    font-size: 17px;
+                    background: #f8f8f8;
+                    a{
+                        color: #646464;
+                    }
+                }
+            }
+        }
+    }
+}
